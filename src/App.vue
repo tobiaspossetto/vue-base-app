@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <Main />
+    <Ejercicio1 />
   </div>
 </template>
 
 <script>
-import Main from "./components/Main"
+import Ejercicio1 from "./components/Ejercicio1"
 
 export default {
   components: {
-    Main,
+   Ejercicio1
   },
   name: 'App',
 }
+
 </script>
 
 <style>
